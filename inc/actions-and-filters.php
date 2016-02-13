@@ -63,7 +63,7 @@ class slushman_2016_Actions_and_Filters {
 	 */
 	public function admin_scripts_and_styles( $hook ) {
 
-		wp_enqueue_style( 'scriptname-admin', get_stylesheet_directory_uri() . '/admin.css' );
+		wp_enqueue_style( 'slushman-2016-admin', get_stylesheet_directory_uri() . '/admin.css' );
 
 		// if ( 'nav-menus.php' != $hook ) { return; } // Page-specific scripts & styles after this
 
@@ -75,8 +75,8 @@ class slushman_2016_Actions_and_Filters {
 	public function more_scripts_and_styles() {
 
 		wp_enqueue_style( 'dashicons' );
-		wp_enqueue_script( 'scriptname-search', get_template_directory_uri() . '/js/hidden-search.min.js', array(), '20150807', true );
-		// wp_enqueue_style( 'scriptname-fonts', $this->fonts_url(), array(), null );
+		wp_enqueue_script( 'slushman-2016-search', get_template_directory_uri() . '/js/hidden-search.min.js', array(), '20150807', true );
+		// wp_enqueue_style( 'slushman-2016-fonts', $this->fonts_url(), array(), null );
 		wp_enqueue_style( 'gridly', 'https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly.min.css', array(), null, true );
 
 	} // more_scripts_and_styles()
@@ -86,7 +86,7 @@ class slushman_2016_Actions_and_Filters {
 	 */
 	function login_scripts() {
 
-		wp_enqueue_style( 'scriptname-login', get_stylesheet_directory_uri() . '/login.css', 10, 2 );
+		wp_enqueue_style( 'slushman-2016-login', get_stylesheet_directory_uri() . '/login.css', 10, 2 );
 		wp_enqueue_script( 'enquire', '//cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.2/enquire.min.js', array(), '20150804', true );
 
 	} // login_scripts()
