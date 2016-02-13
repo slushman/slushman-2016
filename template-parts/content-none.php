@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package DocBlock
+ * @package Slushman_2016
  */
 
 ?><section class="no-results not-found"><?php

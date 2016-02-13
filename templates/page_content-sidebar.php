@@ -4,7 +4,7 @@
  *
  * Description: Page template with sidebar on the right-side
  *
- * @package DocBlock
+ * @package Slushman_2016
  */
 
 get_header();

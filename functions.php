@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Functions_File_Explained
  *
- * @package DocBlock
+ * @package Slushman_2016
  */
 
 if ( ! function_exists( 'slushman_2016_setup' ) ) :

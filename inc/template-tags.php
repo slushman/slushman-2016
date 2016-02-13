@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package DocBlock
+ * @package Slushman_2016
  */
 
 if ( ! function_exists( 'slushman_2016_posted_on' ) ) :

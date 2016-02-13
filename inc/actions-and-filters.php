@@ -3,7 +3,7 @@
 /**
  * A class of helpful theme functions
  *
- * @package DocBlock
+ * @package Slushman_2016
  * @author Slushman <chris@slushman.com>
  */
 class slushman_2016_Actions_and_Filters {
