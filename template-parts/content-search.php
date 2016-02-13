@@ -18,7 +18,7 @@
 		if ( 'post' == get_post_type() ) :
 			?><div class="entry-meta"><?php
 
-				function_names_posted_on();
+				slushman_2016_posted_on();
 
 			?></div><!-- .entry-meta --><?php
 
@@ -38,7 +38,7 @@
 
 	?><footer class="entry-footer"><?php
 
-		function_names_entry_footer();
+		slushman_2016_entry_footer();
 
 	?></footer><!-- .entry-footer --><?php
 

@@ -6,7 +6,7 @@
  * @package DocBlock
  * @author Slushman <chris@slushman.com>
  */
-class function_names_Actions_and_Filters {
+class slushman_2016_Actions_and_Filters {
 
 	/**
 	 * Constructor
@@ -133,10 +133,10 @@ class function_names_Actions_and_Filters {
 	 */
 	public function background_images() {
 
-		global $function_names_themekit;
+		global $slushman_2016_themekit;
 
 		$output = '';
-		$image 	= $function_names_themekit->get_thumbnail_url( get_the_ID(), 'full' );
+		$image 	= $slushman_2016_themekit->get_thumbnail_url( get_the_ID(), 'full' );
 
 		if ( ! $image ) {
 
@@ -465,4 +465,4 @@ class function_names_Actions_and_Filters {
 /**
  * Make an instance so its ready to be used
  */
-$function_names_actions_and_filters = new function_names_Actions_and_Filters();
+$slushman_2016_actions_and_filters = new slushman_2016_Actions_and_Filters();
