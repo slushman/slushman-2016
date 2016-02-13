@@ -1,6 +1,6 @@
 <?php
 /**
- * Replace With Theme Name Customizer
+ * Slushman 2016 Customizer
  *
  * Contains methods for customizing the theme customization screen.
  *
@@ -38,7 +38,7 @@ function slushman_2016_register_panels( $wp_customize ) {
 	$wp_customize->add_panel( 'theme_options',
 		array(
 			'capability'  		=> 'edit_theme_options',
-			'description'  		=> esc_html__( 'Options for Replace With Theme Name', 'slushman-2016' ),
+			'description'  		=> esc_html__( 'Options for Slushman 2016', 'slushman-2016' ),
 			'priority'  		=> 10,
 			'theme_supports'  	=> '',
 			'title'  			=> esc_html__( 'Theme Options', 'slushman-2016' ),
@@ -50,7 +50,7 @@ function slushman_2016_register_panels( $wp_customize ) {
 	$wp_customize->add_panel( 'theme_options',
 		array(
 			'capability'  		=> 'edit_theme_options',
-			'description'  		=> esc_html__( 'Options for Replace With Theme Name', 'slushman-2016' ),
+			'description'  		=> esc_html__( 'Options for Slushman 2016', 'slushman-2016' ),
 			'priority'  		=> 10,
 			'theme_supports'  	=> '',
 			'title'  			=> esc_html__( 'Theme Options', 'slushman-2016' ),
